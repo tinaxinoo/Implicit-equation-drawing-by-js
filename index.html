@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐函数绘图</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="inputContainer">
+        <label for="expression">f(x,y)=</label>
+        <input type="text" id="expression" value="sin(x+y)-cos(x*y)-sin(x)">
+        <button id="drawButton">绘制</button>
+    </div>
+    <canvas id="canvas" width="512" height="512"></canvas>
+
+
+    <script src="drawFunction.js"></script>
+</body>
+
+</html>
